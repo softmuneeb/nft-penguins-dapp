@@ -1,0 +1,145 @@
+https://api.opensea.io/api/v1/assets?asset_contract_address=0x18f87c05325ae47bfe75c039198b3dc1cb2ed23d&token_ids=419&
+
+{
+    "assets": [
+        {
+            "id": 90586491,
+            "num_sales": 0,
+            "background_color": null,
+            "image_url": "https://lh3.googleusercontent.com/u4mT2fC-l9qtjS6IP4B-VFjj1jl_31RyHUA2wqZIIze4gAsWJ9TaeySGFH5oDO9xJVsdkjUADrr_teSRr4Kn3cTnB4Fk4mYGIKHO",
+            "image_preview_url": "https://lh3.googleusercontent.com/u4mT2fC-l9qtjS6IP4B-VFjj1jl_31RyHUA2wqZIIze4gAsWJ9TaeySGFH5oDO9xJVsdkjUADrr_teSRr4Kn3cTnB4Fk4mYGIKHO=s250",
+            "image_thumbnail_url": "https://lh3.googleusercontent.com/u4mT2fC-l9qtjS6IP4B-VFjj1jl_31RyHUA2wqZIIze4gAsWJ9TaeySGFH5oDO9xJVsdkjUADrr_teSRr4Kn3cTnB4Fk4mYGIKHO=s128",
+            "image_original_url": "https://ipfs.io/ipfs/QmUnXZojFwnXb223rsUw31exU4JZ4tC1PCeZMFmKGChU39/419.jpg",
+            "animation_url": null,
+            "animation_original_url": null,
+            "name": "Cheeky Lion #419",
+            "description": null,
+            "external_link": "https://cheekylionclub.com/",
+            "asset_contract": {
+                "address": "0x18f87c05325ae47bfe75c039198b3dc1cb2ed23d",
+                "asset_contract_type": "non-fungible",
+                "created_date": "2021-11-01T07:43:29.439053",
+                "name": "Cheeky Lion Club",
+                "nft_version": "3.0",
+                "opensea_version": null,
+                "owner": 111196230,
+                "schema_name": "ERC721",
+                "symbol": "CLC",
+                "total_supply": "10333",
+                "description": "The Cheeky Lion Club are the official breeding partners of The Cheeky Cougar Club.\nThey are a private collection of 8,000 Cheeky Lion NFT’s stored as ERC-721 tokens on the Ethereum blockchain.",
+                "external_link": "https://cheekylionclub.com",
+                "image_url": "https://lh3.googleusercontent.com/5wvb3QQuIgzn50a85PakKuat3hEmcVqS4Gly8PupnjvNTbANjStkuIU5FcigST_sZ1o5h7lk3XS_tWj2AywijjBWBWvcMLBrH7Ab39U=s120",
+                "default_to_fiat": false,
+                "dev_buyer_fee_basis_points": 0,
+                "dev_seller_fee_basis_points": 750,
+                "only_proxied_transfers": false,
+                "opensea_buyer_fee_basis_points": 0,
+                "opensea_seller_fee_basis_points": 250,
+                "buyer_fee_basis_points": 0,
+                "seller_fee_basis_points": 1000,
+                "payout_address": "0xb80f4d37bce8f1da80b06f148a2b25322a2ebdb6"
+            },
+            "permalink": "https://opensea.io/assets/0x18f87c05325ae47bfe75c039198b3dc1cb2ed23d/419",
+            "collection": {
+                "banner_image_url": "https://lh3.googleusercontent.com/t1WT1f5IjshIrUYDSZ4D6mXy4KWL6hReO3CMy0Ad3OnJ3TgffFqkjZJXRPbE9XWYI4N22gUair9dOy-taDZ8eiEej6iRAl1fEc-dnA=s2500",
+                "chat_url": null,
+                "created_date": "2021-11-04T10:37:16.816185",
+                "default_to_fiat": false,
+                "description": "The Cheeky Lion Club are the official breeding partners of The Cheeky Cougar Club.\nThey are a private collection of 8,000 Cheeky Lion NFT’s stored as ERC-721 tokens on the Ethereum blockchain.",
+                "dev_buyer_fee_basis_points": "0",
+                "dev_seller_fee_basis_points": "750",
+                "discord_url": "https://discord.gg/cheekylionclub",
+                "display_data": {
+                    "card_display_style": "cover"
+                },
+                "external_url": "https://cheekylionclub.com",
+                "featured": false,
+                "featured_image_url": "https://lh3.googleusercontent.com/5wvb3QQuIgzn50a85PakKuat3hEmcVqS4Gly8PupnjvNTbANjStkuIU5FcigST_sZ1o5h7lk3XS_tWj2AywijjBWBWvcMLBrH7Ab39U=s300",
+                "hidden": false,
+                "safelist_request_status": "approved",
+                "image_url": "https://lh3.googleusercontent.com/5wvb3QQuIgzn50a85PakKuat3hEmcVqS4Gly8PupnjvNTbANjStkuIU5FcigST_sZ1o5h7lk3XS_tWj2AywijjBWBWvcMLBrH7Ab39U=s120",
+                "is_subject_to_whitelist": false,
+                "large_image_url": "https://lh3.googleusercontent.com/5wvb3QQuIgzn50a85PakKuat3hEmcVqS4Gly8PupnjvNTbANjStkuIU5FcigST_sZ1o5h7lk3XS_tWj2AywijjBWBWvcMLBrH7Ab39U=s300",
+                "medium_username": null,
+                "name": "The Cheeky Lion Club",
+                "only_proxied_transfers": false,
+                "opensea_buyer_fee_basis_points": "0",
+                "opensea_seller_fee_basis_points": "250",
+                "payout_address": "0xb80f4d37bce8f1da80b06f148a2b25322a2ebdb6",
+                "require_email": false,
+                "short_description": null,
+                "slug": "thecheekylionclub",
+                "telegram_url": null,
+                "twitter_username": "cheekylionclub",
+                "instagram_username": "cheekylionclub",
+                "wiki_url": null
+            },
+            "decimals": 0,
+            "token_metadata": "https://ipfs.io/ipfs/QmUo7f95BgJDVZDVygRVMy638YpZDVsJYqNVQCvmP3LctT/419",
+            "owner": {
+                "user": null,
+                "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/7.png",
+                "address": "0x6ea3af8dd12534bf7903e305336a28ceeac0e285",
+                "config": ""
+            },
+            "sell_orders": null,
+            "creator": {
+                "user": {
+                    "username": "CLC-Official"
+                },
+                "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/6.png",
+                "address": "0xb80f4d37bce8f1da80b06f148a2b25322a2ebdb6",
+                "config": ""
+            },
+            "traits": [
+                {
+                    "trait_type": "Skin",
+                    "value": "Dark brown",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 2309,
+                    "order": null
+                },
+                {
+                    "trait_type": "Background",
+                    "value": "Vibrant Green",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 990,
+                    "order": null
+                },
+                {
+                    "trait_type": "Mouth",
+                    "value": "Relaxed",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 1553,
+                    "order": null
+                },
+                {
+                    "trait_type": "Mane",
+                    "value": "Maroon Red",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 787,
+                    "order": null
+                },
+                {
+                    "trait_type": "Eyes",
+                    "value": "Blue Glow",
+                    "display_type": null,
+                    "max_value": null,
+                    "trait_count": 406,
+                    "order": null
+                }
+            ],
+            "last_sale": null,
+            "top_bid": null,
+            "listing_date": null,
+            "is_presale": false,
+            "transfer_fee_payment_token": null,
+            "transfer_fee": null,
+            "token_id": "419"
+        }
+    ]
+}

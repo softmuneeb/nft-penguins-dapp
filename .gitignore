@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# .env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.htaccess
+src/libs/secret.js
+# public/normal_traits
+# public/specil_traits
+public/Bastard_Penguins
+public/Bastard_Penguins_metadata
+public/BP_SZN1_v3_metadata
+public/SG_batch1

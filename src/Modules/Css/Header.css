@@ -1,0 +1,890 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.respon-h {
+  display: none;
+}
+:root {
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+}
+
+/* 
+========================Navbar============================================================================ */
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar li a {
+  color: white !important;
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 18px !important;
+  padding-right: 2rem !important;
+  text-transform: uppercase;
+}
+.navbar-toggler {
+  background-color: rgb(0, 188, 255) !important;
+  z-index: 1;
+}
+.stake-button-alignment {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.alignment-button {
+  display: flex;
+  /* justify-content: space-around; */
+  /* width: 30%; */
+}
+
+/* ============================Header================================================================================ */
+
+#dev-right {
+  position: relative;
+}
+#head-button1 {
+  background: rgb(0, 188, 255);
+  color: #07081d;
+  padding: 6px 28px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+  font-weight: 600;
+  /* margin-left: -235px; */
+  border: 0px !important;
+  font-size: 16px;
+  margin-bottom: 0%;
+  position: relative;
+  line-height: 40px !important;
+  cursor: pointer;
+  z-index: 1;
+}
+#head-button1:hover {
+  filter: brightness(1.2);
+}
+
+#head-button3 {
+  background: white;
+  color: #07081d;
+  padding: 6px 28px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+  font-weight: 600;
+  /* margin-left: -235px; */
+  border: 0px !important;
+  font-size: 16px;
+  margin-bottom: 0%;
+  position: relative;
+  line-height: 40px !important;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#head-button {
+  background: rgb(0, 188, 255);
+  color: #07081d;
+  padding: 0px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0%;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  height: 100%;
+  width: 150px;
+}
+#head-button:hover {
+  filter: brightness(1.2);
+}
+
+#head-button span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  margin-right: 4px;
+}
+#head-heading {
+  font-weight: 600;
+  margin-left: -20px;
+  font-size: 22px;
+  margin-top: 10%;
+  margin-bottom: -5%;
+  transform: skew(20deg);
+  animation: shake 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewY(2deg);
+  }
+  100% {
+    transform: skewY(-2deg);
+  }
+}
+
+#rightimg {
+  width: 100%;
+  margin-top: 15%;
+  border: 8px solid rgb(0, 188, 255);
+}
+#header #dev-right:hover {
+  -webkit-animation: bounce 0.5s;
+  animation: bounce 0.5s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: bounce;
+}
+
+@-webkit-keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-25px);
+  }
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+}
+
+#first-left {
+  width: 100%;
+}
+#boder {
+  position: relative;
+}
+#border img {
+  width: 109%;
+  height: 141%;
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -15px;
+  padding: 0% !important;
+}
+#wave img {
+  width: 397px;
+  height: 168px;
+  display: block;
+  position: absolute;
+  right: -190px;
+  bottom: 10px;
+  z-index: -1;
+}
+#rightp {
+  text-align: center;
+  font-family: Lato;
+  font-size: 27px;
+  color: rgb(0, 188, 255);
+  margin-top: 18px;
+  font-weight: bold;
+}
+#leftp {
+  font-size: 18px;
+  padding: 0% !important;
+}
+.resbar {
+  display: none;
+}
+/* 
+ ================================Mint========================================================================== */
+#mint-button {
+  background: rgb(0, 188, 255);
+  color: black;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+  font-weight: 700;
+
+  font-size: 18px;
+  border: none;
+  margin-bottom: 0%;
+  position: relative;
+  cursor: pointer;
+  width: 160px;
+  text-align: center;
+}
+
+#Firstrow-mint {
+  width: 44%;
+}
+#Firstpara {
+  font-size: 18px;
+  color: white;
+}
+#Firstpara span {
+  font-size: 18px;
+}
+#Secondpara {
+  font-size: 18px;
+  color: white;
+}
+#Seconddiv {
+  background-color: rgb(0, 0, 255);
+  height: 20px;
+  position: absolute;
+}
+#Thirdpara {
+  font-size: 21px;
+
+  color: white;
+}
+#mintinput {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
+
+/* ===============================================Collection================================================= */
+
+#collection #dev-right:hover {
+  animation: wiggle 25ms infinite;
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translate(8px, 0px);
+  }
+  50% {
+    transform: translate(-8px, 0);
+  }
+  100% {
+    transform: translate(8px, 0);
+  }
+}
+
+#collection-heading {
+  font-family: "Press Start 2P";
+  color: rgb(0, 184, 255);
+  font-weight: 700;
+
+  font-size: 50px !important;
+  line-height: 6rem;
+  text-transform: uppercase;
+}
+
+#first-rowcoll {
+  padding-top: 30px;
+}
+
+#collimg {
+  width: 100% !important;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+#collection-button {
+  background: rgb(0, 188, 255);
+  color: black;
+  z-index: 1;
+  padding: 2px 42px;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: -10px !important;
+  font-size: 18px;
+  cursor: pointer;
+}
+#collection-button:hover {
+  filter: brightness(1.2);
+}
+#mint-button:hover {
+  filter: brightness(1.2);
+}
+
+#collimg {
+  width: 122%;
+  margin-top: 80px;
+  border: 8px solid rgb(0, 188, 255);
+}
+#collimg-team {
+  width: 100%;
+  margin-top: 22%;
+  border: 8px solid rgb(0, 188, 255);
+}
+
+/* =========================================TEAM=============================================== */
+
+#team-heading {
+  text-align: center;
+
+  font-family: "Press Start 2P";
+  color: rgb(0, 184, 255);
+
+  font-weight: 700;
+  font-size: 50 !important;
+  line-height: 8rem;
+  text-transform: uppercase;
+  margin-top: 8%;
+}
+#team-border img {
+  width: 109%;
+  height: 141%;
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -6px;
+  padding: 0% !important;
+}
+
+.name {
+  font-family: "Press Start 2P";
+  font-size: 14px;
+  margin-top: 4%;
+  margin-left: 0%;
+  text-transform: uppercase;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translate(10px, 0px);
+  }
+  50% {
+    transform: translate(-10px, 0);
+  }
+  100% {
+    transform: translate(10px, 0);
+  }
+}
+
+/* 
+
+===============================.roadmap============================================================================= */
+
+#roadmap-heading {
+  font-family: "Press Start 2P";
+  color: rgb(0, 184, 255);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 8rem;
+  text-transform: uppercase;
+  margin: 0 0 0;
+  margin-top: 11%;
+  text-align: center;
+}
+#Roadmap p {
+  font-family: Lato;
+}
+#demo {
+  font-family: "Press Start 2P";
+  color: rgb(0, 184, 255);
+  font-weight: 700;
+  font-size: 30px !important;
+  line-height: 8rem;
+  padding-right: 7% !important;
+  margin-top: 48px !important;
+  margin-left: 186px !important;
+}
+
+#border-roadmap img {
+  width: 99%;
+  height: 139%;
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: -19px;
+  padding: 0% !important;
+}
+
+#rightimg-roadmap {
+  margin-top: 0%;
+  border: 8px solid rgb(0, 188, 255);
+  padding: 0%;
+}
+#rightimg-roadmap1 {
+  margin-top: 3%;
+  border: 8px solid rgb(0, 188, 255);
+  padding: 0%;
+}
+
+/* ==============================================Footer===============================================  */
+
+.social {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(0, 184, 255);
+  color: #172d42;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 35px;
+  transition: filter 0.2s;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.social:hover {
+  filter: brightness(1.2);
+}
+
+#Footer {
+  margin-top: 12%;
+  margin-bottom: 3%;
+}
+.resbar {
+  display: none;
+}
+
+.bar {
+  display: none;
+}
+
+#mint-resp {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* height: 250px; */
+}
+
+/* =====================================================RESPONSIVE========================================= */
+
+/* ==========================for component fixing devices issue========================= */
+@media (max-width: 600px) {
+  #teammrespon {
+    width: 100%;
+    --bs-gutter-x: 0 !important;
+  }
+  #roteam {
+    width: 92% !important;
+  }
+  #second-rowcoll {
+    width: 90% !important;
+  }
+
+  #roadmapTeaxt {
+    margin-left: -15px !important;
+    margin-top: -45px !important;
+  }
+  #rodmprow {
+    margin-top: -56px !important;
+  }
+  .resbar {
+    display: block;
+  }
+  #dev-right {
+    margin-top: -38px !important;
+    margin-bottom: 4%;
+  }
+  #collimg {
+    margin-left: -8px !important;
+  }
+  .firstcolimg {
+    margin-top: 87px !important;
+  }
+
+  #parap {
+    margin-left: 12px !important;
+    padding: 2%;
+  }
+
+  #collection-heading {
+    font-size: 16px !important;
+    line-height: 4rem !important;
+    text-align: center;
+
+    margin-bottom: 8% !important;
+  }
+  #rightp {
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px !important;
+  }
+
+  #collection-button {
+    background: rgb(0, 188, 255);
+    color: black;
+    padding: 2px 42px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+    font-weight: 700;
+
+    font-size: 18px;
+    margin-top: 160%;
+    margin-bottom: 0%;
+    position: relative;
+    cursor: pointer;
+
+    text-align: center;
+    margin-bottom: 14% !important;
+  }
+
+  #team-heading {
+    text-align: center;
+
+    font-family: "Press Start 2P";
+    color: rgb(0, 184, 255);
+
+    font-size: 24px !important;
+
+    text-transform: uppercase;
+    margin-top: 26px !important;
+    margin-left: 1px !important;
+  }
+  .teamfirstimg {
+    margin-top: -46px !important;
+  }
+
+  #roadmap-heading {
+    font-size: 24px !important;
+    line-height: 4rem !important;
+    text-align: center;
+    margin: 1%;
+    margin-left: 12%;
+    margin-bottom: 8% !important;
+  }
+
+  #wave {
+    display: none;
+  }
+
+  .bar {
+    display: none !important;
+  }
+
+  #mint-resp {
+    height: 100px;
+  }
+}
+
+/* =======================================GENERAL FOR ALL FIXING==================================== */
+
+@media (max-width: 600px) {
+  #resfee {
+    display: none;
+  }
+  #collimg {
+    width: 122% !important;
+    margin-top: 22%;
+    border: 8px solid rgb(0, 188, 255);
+  }
+
+  .respon-h {
+    display: block;
+  }
+  #Firstpara {
+    text-align: center;
+    margin-left: -9px !important;
+  }
+  #Thirdpara {
+    text-align: center;
+  }
+
+  #collimg-team {
+    margin-top: 22%;
+
+    border: 8px solid rgb(0, 188, 255);
+  }
+  .fas {
+    display: none;
+  }
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.55);
+    border-color: rgba(0, 0, 0, 0.1);
+    margin-right: -2%;
+  }
+
+  .name {
+    font-size: 14px !important;
+  }
+  .col-2 .MuiSvgIcon-root {
+    font-size: 25px !important;
+    margin-left: 15px;
+    margin-top: 21px !important;
+  }
+
+  #twtteam {
+    font-size: 20px !important;
+  }
+
+  #spp {
+    margin-left: 0px !important;
+  }
+
+  #mint-button {
+    background: rgb(0, 188, 255);
+    color: #07081d;
+
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+    font-weight: 700;
+
+    font-size: 18px;
+
+    position: relative;
+    cursor: pointer;
+    width: 160px;
+    text-align: center;
+  }
+  #Secondpara {
+    text-align: center;
+
+    font-size: 16px;
+
+    color: white;
+  }
+
+  #rightimg-roadmap1 {
+    display: none;
+  }
+  #rightimg-roadmap {
+    margin-top: 45px !important;
+  }
+
+  #mintinput {
+    width: 66px;
+    height: 33px;
+    font-size: 17px;
+  }
+
+  .navbar li a {
+    color: white !important;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 20px !important;
+    padding-right: 2rem !important;
+  }
+
+  #secspan {
+    margin-left: 0% !important;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 700px) {
+  #collection-flex-1 {
+    width: 100% !important;
+  }
+
+  #collection-heading {
+    text-align: center;
+  }
+
+  #rightp {
+    text-align: center;
+    font-family: Lato;
+    font-size: 34px !important;
+  }
+
+  #collection-button {
+    background: rgb(0, 188, 255);
+    color: #07081d;
+    z-index: 1;
+    padding: 2px 42px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px !important;
+    margin-bottom: 0%;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  #team-heading {
+    font-size: 40px !important;
+    line-height: 4rem !important;
+    text-align: center;
+    margin: 1%;
+    margin-left: 1%;
+    margin-bottom: 3% !important;
+    margin-top: 11%;
+  }
+  #roadmap-heading {
+    font-size: 40px !important;
+    line-height: 4rem !important;
+    text-align: center;
+    margin: 1%;
+    margin-left: 1%;
+    margin-bottom: 3% !important;
+    margin-top: 11%;
+  }
+
+  #wave {
+    display: none;
+  }
+
+  .bar {
+    display: none !important;
+  }
+
+  #collimg-team {
+    margin-top: 22%;
+
+    border: 8px solid rgb(0, 188, 255);
+  }
+  .fas {
+    display: none;
+  }
+
+  .col-2 .MuiSvgIcon-root {
+    font-size: 44px !important;
+    margin-top: 31px !important;
+    margin-left: 43px;
+  }
+
+  #twtteam {
+    font-size: 20px !important;
+  }
+
+  #spp {
+    margin-left: 0px !important;
+  }
+
+  #Secondpara {
+    color: white;
+  }
+  #rightimg-roadmap1 {
+    display: none;
+  }
+  #rightimg-roadmap {
+    width: 100% !important;
+  }
+
+  #secspan {
+    margin-left: 0% !important;
+  }
+
+  #mintinput {
+    padding: 0% 4%;
+    margin-top: 16%;
+    width: 66px;
+    height: 33px;
+    font-size: 17px;
+    margin-left: 22px;
+  }
+
+  .navbar li a {
+    color: white !important;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 20px !important;
+    padding-right: 2rem !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #first-rowcoll {
+    padding-top: 0;
+  }
+
+  #minntmain {
+    width: 100% !important;
+  }
+
+  #firstDiv {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1017px) {
+  #head-button {
+    padding: 0 2px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #roadmapTeaxt p {
+    font-size: 15px !important;
+  }
+  #Firstrow-mint {
+    width: 60%;
+  }
+}
+@media (max-width: 1300px) {
+  #roadmapTeaxt p {
+    font-size: 15px !important;
+  }
+  #Firstrow-mint {
+    width: 60% !important;
+  }
+}
+@media (max-width: 1400px) {
+  #roadmapTeaxt p {
+    font-size: 15px !important;
+  }
+  #Firstrow-mint {
+    width: 50%;
+  }
+}
+@media (max-width: 1260px) {
+  #collection-heading {
+    font-size: 34px !important;
+  }
+}
+
+@media (max-width: 730px) {
+  #collection-heading {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 650px) {
+  #hedmian {
+    margin-top: 40px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  #collection-heading {
+    font-size: 26px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  #collection-heading {
+    font-size: 20px !important;
+  }
+}
+.ok12 {
+  font-size: 19px;
+
+  color: white;
+  text-decoration: none;
+}

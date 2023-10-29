@@ -1,0 +1,255 @@
+.screen-divider {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.screen-divider-1-by-3 {
+  background-color: black;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen-divider-2-by-3 {
+  background-color: #004ba5;
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen-divider-3-by-3 {
+  background-color: #004ba5;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen-divider-4-by-3 {
+  background-color: #004ba5;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.chosen-image {
+  height: 220px;
+  width: 220px;
+  border: 7px solid black;
+  border-radius: 13px;
+  /* position: relative;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+.inside-screen-divider-1-by-3 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-forge {
+  font-family: "Press Start 2P";
+  color: rgb(0, 184, 255);
+  font-weight: 700;
+  font-size: 20px !important;
+  line-height: 6rem;
+  text-transform: uppercase;
+}
+
+.button-trials {
+  height: 50px;
+  width: 150px;
+  border: 0px;
+  margin: 3px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #b5e6fe;
+  line-height: 0px !important;
+}
+.button-trials:hover {
+  background-color: #00b8ff;
+}
+
+.selectedButton {
+  height: 50px;
+  width: 150px;
+  border: 2px solid black;
+  margin: 3px;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 0px !important;
+  background-color: white;
+}
+.dropdown-item {
+  font-weight: 600 !important;
+  font-size: 18px;
+}
+
+.header-forge1 {
+  font-family: "Press Start 2P";
+  color: rgb(0, 184, 255);
+  font-weight: 700;
+  font-size: 13px !important;
+  line-height: 6rem;
+  text-transform: uppercase;
+}
+
+
+.header-forge1212 {
+  font-family: "Press Start 2P";
+  color: rgb(0, 184, 255);
+  font-weight: 700;
+  font-size: 13px !important;
+  line-height: 0rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  background-color: white !important;
+  color: black !important;
+  border-color: transparent;
+}
+.dropdown-menu {
+  min-width: 18.5rem;
+}
+.dropdown {
+  padding-top: 9px;
+}
+.btn {
+  line-height: 2.3;
+}
+
+.header-forge2 {
+  font-family: "Press Start 2P";
+  color: rgb(0, 184, 255);
+  font-size: 17px !important;
+  margin-left: 5px;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+.inside-screen-divider-2-by-3 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inside-screen-divider-3-by-3 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-hidden {
+  visibility: hidden;
+  background-color: rebeccapurple;
+}
+
+.Bg-forge {
+  text-align: center;
+  background-image: url("../../assest/bd.png");
+  min-width: 100%;
+  min-height: 100%;
+  height: 860px;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  height: 50px !important;
+  width: 95% !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  border-radius: 5px !important;
+}
+
+.tokens-list {
+  height: 100px;
+  width: 100px;
+}
+.tokens-list:active {
+  border: 3px solid #00b8f5;
+}
+
+.tokens-list-item-selected {
+  border: 3px solid #00b8f5;
+}
+.inside-screen-divider-4-by-3 {
+  justify-content: center;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.burn-list-item-selected {
+  height: 50px;
+  width: 150px;
+  border: 2px solid black;
+  margin: 3px;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 0px;
+  background-color: white;
+}
+
+.good-class {
+  margin: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .screen-divider {
+    flex-direction: column !important;
+  }
+  .screen-divider-1-by-3 {
+    width: 100% !important;
+  }
+  .screen-divider-2-by-3 {
+    width: 100% !important;
+  }
+  .screen-divider-3-by-3 {
+    width: 100% !important;
+  }
+  .screen-divider-4-by-3 {
+    width: 100% !important;
+  }
+  .inside-screen-divider-4-by-3 {
+    align-items: center;
+  }
+  .btn {
+    width: 200px !important;
+  }
+  .Bg-forge {
+    height: 200px;
+  }
+  .good-class {
+    margin: 10px 0px 10px 0px;
+  }
+
+  .selected-img-list {
+    /* display: flex; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .chosen-image {
+    margin-top: 10px;
+  }
+
+  .header-forge2 {
+    text-align: center;
+  }
+}

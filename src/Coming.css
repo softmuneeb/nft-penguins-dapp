@@ -1,0 +1,82 @@
+#particless canvas {
+  position: absolute;
+  width: 100%;
+  height: 108vh !important;
+  z-index: 1;
+}
+#resprow {
+  display: block;
+}
+#resprow1 {
+  display: none;
+}
+
+#first-roww {
+  padding: 8% 5.5% 3% 5%;
+  margin-top: -5% !important;
+}
+
+#demo {
+  font-family: 'Press Start 2P';
+  color: rgb(0, 184, 255);
+  font-weight: 700;
+  font-size: 33px !important;
+  line-height: 8rem;
+  padding-right: 7% !important;
+  margin-top: -16px !important;
+  /* margin-left: 114px !important; */
+  margin-left: 82px !important;
+}
+#demo1 {
+  font-family: 'Press Start 2P';
+  color: rgb(0, 184, 255);
+  font-weight: 700;
+  font-size: 29px !important ;
+  line-height: 8rem;
+  padding-right: 7% !important;
+
+  margin-top: -51px !important;
+
+  margin-left: 75px !important;
+}
+#demo2 {
+  font-family: 'Press Start 2P';
+  color: rgb(0, 184, 255);
+  font-weight: 700;
+  font-size: 29px !important ;
+  line-height: 8rem;
+  padding-right: 7% !important;
+
+  margin-top: -51px !important;
+
+  margin-left: 75px !important;
+}
+@media (max-width: 600px) {
+  #demo {
+    font-weight: 400;
+    font-size: 18px !important ;
+  }
+  #demo1 {
+    font-weight: 400;
+    font-size: 16px !important;
+
+    margin-left: 44px !important;
+  }
+  #demo2 {
+    font-weight: 400;
+    font-size: 16px !important;
+    margin-left: 49px !important;
+    margin-top: -80px !important;
+  }
+
+  .col-12 {
+    flex: 0 0 auto;
+  }
+
+  #resprow1 {
+    display: block !important;
+  }
+  #resprow {
+    display: none !important;
+  }
+}

@@ -1,0 +1,23 @@
+body {
+    font: 1.8em/2 sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 1.8em;
+    line-height: 4rem;
+    font-family: Lato;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    font-family: Lato;
+    line-height: 4rem;
+    position: relative;
+    overflow-x: hidden;
+    background-color: rgb(7, 8, 29);
+  }
+
+  
